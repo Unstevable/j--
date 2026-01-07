@@ -1,0 +1,23 @@
+1. Provide a high-level description (ie, using minimal amount of technical
+   jargon) of the project in no more than 200 words.
+
+   In this project we added to the JavaCC specification file j--.jj to add more functionality
+   to the j-- language, specifically the scanner and parser sections of j--.jj.  In these sections,
+   we add the same types of things we added in projects 2 and 3: long and double basic types, operators,
+   scanning various statements like for, do, break and so on.  The difficulty from this implementation
+   comes from ensuring proper syntax that is in-line with the grammar for j--, and knowing the
+   differences between j-- syntax and how to add actual Java code when needed.
+
+2. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   General Piazza Help                ...          ...
+
+3. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   Good project, well paced and enabled more understanding of general course material

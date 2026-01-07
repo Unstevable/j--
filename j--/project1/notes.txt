@@ -1,0 +1,22 @@
+Steven Carr
+February 8th 2024
+CS451
+
+1. Provide a high-level description (ie, using minimal amount of technical
+   jargon) of the project in no more than 200 words.
+
+This project mainly set a basis for our understanding of building the j-- Java sub-language.  In problem one, we programmatically generate the IsPrime class file; meaning, the base Java file for IsPrime does not exist, and we create it using code from another file labeled GenIsPrime.  We do this by utilizing the CLEmitter class and generating everything that would be present in the IsPrime class; from the beginning line of “public static void IsPrime” to the methods being called within.  Even though we are using the Java language as the basis for generating the IsPrime class, the logic behind it involves thinking in a manner akin to that as if we were coding in Assembly, so we have to keep track of what arguments and variables are on the stack we are using, as well as what is added to the stack with the proper order they are on it.  Problems two through four involve adding various operations to the j-- sub-language by editing the TokenInfo.java, Scanner.java, Parser.java, JBinaryExpression.java and JUnaryExpression.java files.  We added the following operations to the language: /, %, + (unary plus), ~, |, ^, &, <<, >> and >>>.
+
+2. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Piazza             ----         General Question Help
+
+3. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   Nicely put-together project; was also decently explained beforehand so questinons were relatively minimal.

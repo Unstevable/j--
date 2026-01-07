@@ -1,0 +1,18 @@
+1. Provide a high-level description (ie, using minimal amount of technical
+   jargon) of the project in no more than 200 words.
+
+This project revolves around modifying Scanner.java and TokenInfo.java to recognize various operations, reserved words, multi-line comments, long and double literals.  The various operations that were added included:  ?, :, ~, !=, /, /=, -=, *=, %, %=, >>, >>=, >>>, >>>=, >=, <<, <<=, <, ^, ^=, |, |=, ||, & and &=, with some overlap from operations already implemented in project one.  The reserved words now recognized by the Scanner are:  break, case, catch, continue, default, do, double, finally, for, implements, interface, long, switch, throw, throws and try.  The slightly harder aspects of this project were to add multi-line comment functionality to the Scanner, and adding double and long literals to the scanner.  The multi-line comment required creating a DFA beforehand to properly visualize where there should be conditions that would create a multi-line comment and what conditions would not.  The long literals were easy, as simple as adding a check for ‘l’ or ‘L’ after searching for digits.  However, double literals were much more tedious to implement; it required being aware of whether or not a ‘.’ was present, an ‘e’ or ‘E’, a ‘d’ or ‘D’, and so on.
+
+2. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   General Piazza     ------	   -----
+
+3. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   Good project, needed information was explained relatively well in class.

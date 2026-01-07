@@ -1,0 +1,18 @@
+1. Provide a high-level description (ie, using minimal amount of technical
+   jargon) of the project in no more than 200 words.
+
+   This project involved adding various types of functionality to the Parser, to include conditionals some basic types, operators, conditionals, statements, exception handlers and interfaces.  The parser will be able to now parse over these areas within j-- code to produce a correct AST for them.  Adding functionality for things like the long and double basic types and the operators were easy, while some of the statements needing to be added (like a FOR statement) involved more critical thinking about how the statements were scanned and how to implement that accordingly, along with the addition of helper methods and functions to ensure the parser is set up according to the provided grammar.  Unfortunately, I was unable to fully able implement the final problem, problem 10, for implementing parsing for an interface because of an infinite loop that I was unable to pinpoint exactly why it was occurring.
+
+2. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   General Piazza Help
+
+3. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   Good project; I feel as though the projects are progressing in difficulty in a nice proportional manner.
